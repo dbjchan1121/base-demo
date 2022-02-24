@@ -1,0 +1,3170 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-x: auto;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  overflow: auto;
+  min-width: 0;
+}
+.点击选择该模版进入创建 {
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
+}
+.框架insideinside头部2 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 0px;
+}
+.导航栏 {
+  height: 50px;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.框架insideinside导航栏 {
+  flex-direction: row;
+  background: rgba(219, 244, 246, 1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.框架insideinside导航栏 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: calc(0px - 84px);
+  width: calc(100% + 84px);
+}
+.框架insideinside导航栏 > :global(.__wab_flex-container) > *,
+.框架insideinside导航栏
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架insideinside导航栏 > :global(.__wab_flex-container) > picture > img,
+.框架insideinside导航栏
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 84px;
+}
+.frame81 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame81 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 52px);
+  width: calc(100% + 52px);
+}
+.frame81 > :global(.__wab_flex-container) > *,
+.frame81 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame81 > :global(.__wab_flex-container) > picture > img,
+.frame81
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 52px;
+}
+.frame74 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame74 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.frame74 > :global(.__wab_flex-container) > *,
+.frame74 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame74 > :global(.__wab_flex-container) > picture > img,
+.frame74
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.福景 {
+  width: 34px;
+  height: 34px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.logo {
+  background: url("/plasmic/base_demo/images/logo5.png") 0px 0px / 34px 34px no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.text__lK8El {
+  display: block;
+  font-size: 18px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(33, 33, 33, 1);
+  position: relative;
+}
+.frame73 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame73 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.frame73 > :global(.__wab_flex-container) > *,
+.frame73 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame73 > :global(.__wab_flex-container) > picture > img,
+.frame73
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.框架inside导航栏单项模块 {
+  flex-direction: row;
+  background: rgba(50, 136, 142, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.框架inside导航栏单项模块 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.框架inside导航栏单项模块 > :global(.__wab_flex-container) > *,
+.框架inside导航栏单项模块
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside导航栏单项模块 > :global(.__wab_flex-container) > picture > img,
+.框架inside导航栏单项模块
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.img__s9EF4 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.img__s9EF4 > picture > img {
+  object-fit: cover;
+}
+.img__s9EF4 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.首页备份 {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.rectangle13备份2 {
+  background: rgba(183, 225, 228, 1);
+  width: 1px;
+  height: 28px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame72 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame72 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.frame72 > :global(.__wab_flex-container) > *,
+.frame72 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame72 > :global(.__wab_flex-container) > picture > img,
+.frame72
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.框架inside导航栏单项模块2 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.框架inside导航栏单项模块2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.框架inside导航栏单项模块2 > :global(.__wab_flex-container) > *,
+.框架inside导航栏单项模块2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside导航栏单项模块2 > :global(.__wab_flex-container) > picture > img,
+.框架inside导航栏单项模块2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.首页备份2 {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(95, 109, 110, 1);
+  position: relative;
+}
+.框架inside导航栏单项模块3 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.框架inside导航栏单项模块3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.框架inside导航栏单项模块3 > :global(.__wab_flex-container) > *,
+.框架inside导航栏单项模块3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside导航栏单项模块3 > :global(.__wab_flex-container) > picture > img,
+.框架inside导航栏单项模块3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.首页备份3 {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(95, 109, 110, 1);
+  position: relative;
+}
+.框架inside导航栏单项模块4 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.框架inside导航栏单项模块4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.框架inside导航栏单项模块4 > :global(.__wab_flex-container) > *,
+.框架inside导航栏单项模块4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside导航栏单项模块4 > :global(.__wab_flex-container) > picture > img,
+.框架inside导航栏单项模块4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.首页备份4 {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(95, 109, 110, 1);
+  position: relative;
+}
+.框架inside导航栏单项模块5 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.框架inside导航栏单项模块5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.框架inside导航栏单项模块5 > :global(.__wab_flex-container) > *,
+.框架inside导航栏单项模块5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside导航栏单项模块5 > :global(.__wab_flex-container) > picture > img,
+.框架inside导航栏单项模块5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.首页备份5 {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(95, 109, 110, 1);
+  position: relative;
+}
+.框架inside导航栏单项模块6 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.框架inside导航栏单项模块6 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.框架inside导航栏单项模块6 > :global(.__wab_flex-container) > *,
+.框架inside导航栏单项模块6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside导航栏单项模块6 > :global(.__wab_flex-container) > picture > img,
+.框架inside导航栏单项模块6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.首页备份6 {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(95, 109, 110, 1);
+  position: relative;
+}
+.框架inside导航栏单项模块7 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.框架inside导航栏单项模块7 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.框架inside导航栏单项模块7 > :global(.__wab_flex-container) > *,
+.框架inside导航栏单项模块7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside导航栏单项模块7 > :global(.__wab_flex-container) > picture > img,
+.框架inside导航栏单项模块7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.首页备份7 {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(95, 109, 110, 1);
+  position: relative;
+}
+.框架inside导航栏单项模块8 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.框架inside导航栏单项模块8 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.框架inside导航栏单项模块8 > :global(.__wab_flex-container) > *,
+.框架inside导航栏单项模块8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside导航栏单项模块8 > :global(.__wab_flex-container) > picture > img,
+.框架inside导航栏单项模块8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.首页备份8 {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(95, 109, 110, 1);
+  position: relative;
+}
+.frame80 {
+  flex-direction: row;
+  background: rgba(218, 244, 245, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 16px;
+}
+.frame80 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.frame80 > :global(.__wab_flex-container) > *,
+.frame80 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame80 > :global(.__wab_flex-container) > picture > img,
+.frame80
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.frame79 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame79 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.frame79 > :global(.__wab_flex-container) > *,
+.frame79 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame79 > :global(.__wab_flex-container) > picture > img,
+.frame79
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.text__ydFjb {
+  display: block;
+  font-size: 12px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 16px;
+  color: rgba(90, 120, 123, 1);
+  position: relative;
+}
+.分组1 {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.分组 {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.矩形 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.svg__sbiv1 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #5e999d;
+  transform: translate(0.20699999999999985px, -0.009000000000000341px);
+  width: 9px;
+  height: 5px;
+  display: block;
+  top: 40%;
+  left: 25%;
+}
+.frame78 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame78 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.frame78 > :global(.__wab_flex-container) > *,
+.frame78 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame78 > :global(.__wab_flex-container) > picture > img,
+.frame78
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.引导Insdie {
+  filter: drop-shadow(0px 0.5px 0.5px rgba(0, 0, 0, 0.249));
+  width: 32px;
+  height: 32px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.img__pTNvy {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(1, -1) rotate(-180deg);
+  width: 32px;
+  height: 32px;
+  display: block !important;
+  transform-origin: top left;
+  top: 0%;
+  left: 100%;
+}
+.img__pTNvy > picture > img {
+  object-fit: cover;
+}
+.img__pTNvy > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img___9Em0H {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  mix-blend-mode: overlay;
+  transform: scale(1, -1) rotate(-180deg);
+  width: 32px;
+  height: 32px;
+  display: block !important;
+  transform-origin: top left;
+  top: 0%;
+  left: 100%;
+}
+.img___9Em0H > picture > img {
+  object-fit: cover;
+}
+.img___9Em0H > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__sPm5C {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(1, -1) rotate(-180deg);
+  width: 32px;
+  height: 32px;
+  display: block !important;
+  transform-origin: top left;
+  top: 0%;
+  left: 100%;
+}
+.img__sPm5C > picture > img {
+  object-fit: cover;
+}
+.img__sPm5C > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img___98YvO {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  mix-blend-mode: soft-light;
+  filter: blur(0.033);
+  transform: scale(1, -1) rotate(-180deg);
+  width: 34px;
+  height: 34px;
+  display: block !important;
+  transform-origin: top left;
+  top: 0%;
+  left: 100%;
+}
+.img___98YvO > picture > img {
+  object-fit: cover;
+}
+.img___98YvO > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__xx4Qk {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  mix-blend-mode: soft-light;
+  filter: blur(0.099);
+  transform: scale(1, -1) rotate(-180deg);
+  width: 34px;
+  height: 34px;
+  display: block !important;
+  transform-origin: top left;
+  top: 0%;
+  left: 100%;
+}
+.img__xx4Qk > picture > img {
+  object-fit: cover;
+}
+.img__xx4Qk > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.猴头 {
+  transform: scale(1, -1) rotate(-180deg)
+    translate(-0.17999999999999972px, 0.19300000000000006px);
+  width: 28px;
+  height: 28px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 2px;
+  left: 30px;
+}
+.svg__jjtZt {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #95725a;
+  transform: scale(1, -1) rotate(-180deg)
+    translate(0.08200000000000074px, -0.40100000000000025px);
+  width: 21px;
+  height: 21px;
+  display: block;
+  top: 10.86%;
+  left: 3px;
+}
+.svg__xgjl7 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fae0c8;
+  transform: scale(1, -1) rotate(-180deg)
+    translate(-0.39000000000000057px, -0.4819999999999993px);
+  width: 18px;
+  height: 15px;
+  display: block;
+  top: 32.59%;
+  left: 4px;
+}
+.img__apMNh {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: translate(-0.41799999999999926px, 0.09600000000000009px);
+  width: 4.676px;
+  height: 4.675px;
+  display: block !important;
+  transform-origin: top left;
+  top: 10px;
+  left: 8px;
+}
+.img__apMNh > picture > img {
+  object-fit: cover;
+}
+.img__apMNh > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img___39SHu {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: translate(0.31200000000000117px, 0.09600000000000009px);
+  width: 4.676px;
+  height: 4.676px;
+  display: block !important;
+  transform-origin: top left;
+  top: 10px;
+  left: 15px;
+}
+.img___39SHu > picture > img {
+  object-fit: cover;
+}
+.img___39SHu > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__k3E6D {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 27.64px;
+  height: 27.613px;
+  display: block !important;
+  transform-origin: top left;
+  top: 0px;
+  left: 0px;
+}
+.img__k3E6D > picture > img {
+  object-fit: cover;
+}
+.img__k3E6D > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.rectangle13 {
+  background: rgba(181, 199, 201, 1);
+  width: 1px;
+  height: 30px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame77 {
+  width: 26px;
+  height: 26px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__tp4Qi {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #8aafaa;
+  width: 26px;
+  height: 26px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.text__fzZiw {
+  display: block;
+  font-size: 12px;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 1.365px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  width: 13px;
+}
+.frame76 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.text__ms5Dg {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  font-family: Microsoft YaHei UI;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 16px;
+  color: rgba(90, 120, 123, 1);
+  position: relative;
+}
+.插图 {
+  width: 1px;
+  height: 34px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.千库网眼镜书本课本打开的书元素编号11908107 {
+  mix-blend-mode: multiply;
+  opacity: 0.111;
+  background: url("/plasmic/base_demo/images/千库网眼镜书本课本打开的书元素编号119081075.jpeg") 0px 0px / 407px 272px no-repeat;
+  width: 407px;
+  height: 272px;
+  display: block;
+  position: absolute;
+  top: -136px;
+  right: 88px;
+}
+.底部 {
+  height: 1px;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  -webkit-mask-image: var(--image-VUQuBuHDqF_);
+  -webkit-mask-size: 1440px 32px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.svg__nXexy {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #b4d5d7;
+  width: 1440px;
+  height: 10px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.rectangle46 {
+  background: rgba(209, 236, 238, 1);
+  height: 22px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.矩形2 {
+  mix-blend-mode: normal;
+  box-shadow: inset 0px 0px 0px 2px rgba(119, 153, 155, 1);
+  height: 32px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: 8px;
+}
+.frame3825 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 850px;
+  overflow: auto;
+  flex-shrink: 0;
+}
+.inside应用左侧导航栏班级教学左侧导航栏 {
+  background: rgba(0, 99, 107, 1);
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frame51 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.框架inside左侧导航栏单项展开状态一级选项 {
+  background: rgba(0, 99, 107, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.一级单项 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.img__sOzzN {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.img__sOzzN > picture > img {
+  object-fit: cover;
+}
+.img__sOzzN > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.框架inside左侧导航栏单项展开状态一级选项2 {
+  background: rgba(0, 99, 107, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.一级单项2 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.img__i3Olo {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.img__i3Olo > picture > img {
+  object-fit: cover;
+}
+.img__i3Olo > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.框架inside左侧导航栏单项展开状态一级选项3 {
+  background: rgba(0, 99, 107, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.一级单项3 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.img__yI836 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.img__yI836 > picture > img {
+  object-fit: cover;
+}
+.img__yI836 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.框架inside左侧导航栏单项展开状态一级选项4 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.侧导航元件一级单项 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__eLcJo {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #acd1d3;
+  width: 20px;
+  height: 20px;
+  display: block;
+  top: 15px;
+  right: 6px;
+}
+.一级单项4 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.矩形3 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.img___4IQkk {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.img___4IQkk > picture > img {
+  object-fit: cover;
+}
+.img___4IQkk > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.侧导航元件一级单项侧导航元件二级集合 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.框架inside左侧导航栏单项展开状态二级选项 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形4 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 11px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项2 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形5 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项2 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项3 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形6 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项3 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项4 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形7 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项4 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项5 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形8 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项5 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项6 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形9 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项6 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项7 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形10 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项7 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项8 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形11 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项8 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项9 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形12 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项9 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项10 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形13 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项10 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态一级选项5 {
+  background: rgba(0, 99, 107, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.一级单项5 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.img__pQlOo {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.img__pQlOo > picture > img {
+  object-fit: cover;
+}
+.img__pQlOo > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.框架inside左侧导航栏单项展开状态一级选项6 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.侧导航元件一级单项2 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__xkRGb {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #acd1d3;
+  width: 20px;
+  height: 20px;
+  display: block;
+  top: 15px;
+  right: 6px;
+}
+.一级单项6 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.矩形14 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.评价配置 {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.矩形备份3 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.svg__e5Wwj {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #39d2c4;
+  transform: translate(-0.0009999999999998899px, -0.0009999999999998899px);
+  width: 16px;
+  height: 16px;
+  display: block;
+  top: 10%;
+  left: 10%;
+}
+.svg___3Gytv {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #40b1ba;
+  transform: translate(-0.0009999999999994458px, 0.387px);
+  width: 6px;
+  height: 6px;
+  display: block;
+  top: 10%;
+  left: 60%;
+}
+.侧导航元件一级单项侧导航元件二级集合2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.框架inside左侧导航栏单项展开状态二级选项11 {
+  background: rgba(0, 173, 187, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形15 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项11 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 11px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项12 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形16 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项12 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项13 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形17 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项13 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项14 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形18 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项14 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项15 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形19 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项15 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项16 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形20 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项16 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项17 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形21 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项17 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项18 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形22 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项18 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项19 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形23 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项19 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项20 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形24 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项20 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态一级选项7 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.侧导航元件一级单项3 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__d1Srs {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #acd1d3;
+  width: 20px;
+  height: 20px;
+  display: block;
+  top: 15px;
+  right: 6px;
+}
+.一级单项7 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.矩形25 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.img__pUioV {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.img__pUioV > picture > img {
+  object-fit: cover;
+}
+.img__pUioV > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.侧导航元件一级单项侧导航元件二级集合3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.框架inside左侧导航栏单项展开状态二级选项21 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形26 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项21 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项22 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形27 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项22 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项23 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形28 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项23 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项24 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形29 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项24 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项25 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形30 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项25 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项26 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形31 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项26 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项27 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形32 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项27 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项28 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形33 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项28 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项29 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形34 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项29 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态二级选项30 {
+  background: rgba(0, 111, 121, 1);
+  width: 140px;
+  height: 40px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.矩形35 {
+  background: rgba(0, 204, 220, 1);
+  width: 4px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.二级单项30 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(197, 250, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 32px;
+}
+.框架inside左侧导航栏单项展开状态一级选项8 {
+  background: rgba(0, 99, 107, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__eZQ6 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #acd1d3;
+  width: 20px;
+  height: 20px;
+  display: block;
+  top: 15px;
+  right: 6px;
+}
+.一级单项8 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.img__qeAw {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.img__qeAw > picture > img {
+  object-fit: cover;
+}
+.img__qeAw > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.框架inside左侧导航栏单项展开状态一级选项9 {
+  background: rgba(0, 99, 107, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.一级单项9 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.img___5N0Fj {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+}
+.img___5N0Fj > picture > img {
+  object-fit: cover;
+}
+.img___5N0Fj > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.框架inside左侧导航栏单项展开状态一级选项10 {
+  background: rgba(0, 99, 107, 1);
+  width: 140px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__ywBWu {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #acd1d3;
+  width: 20px;
+  height: 20px;
+  display: block;
+  top: 15px;
+  right: 6px;
+}
+.一级单项10 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.img__rPfA {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 15px;
+  left: 8px;
+  overflow: hidden;
+}
+.img__rPfA > picture > img {
+  object-fit: cover;
+}
+.img__rPfA > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.框架inside左侧导航栏单项展开状态收起侧导航 {
+  flex-direction: row;
+  background: rgba(5, 90, 97, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(12, 132, 141, 1);
+  width: 140px;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-right: 10px;
+}
+.框架inside左侧导航栏单项展开状态收起侧导航 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.框架inside左侧导航栏单项展开状态收起侧导航
+  > :global(.__wab_flex-container)
+  > *,
+.框架inside左侧导航栏单项展开状态收起侧导航
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.框架inside左侧导航栏单项展开状态收起侧导航
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.框架inside左侧导航栏单项展开状态收起侧导航
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.svg__tAzzq {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #acd1d3;
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+.frame3824 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.frame3824 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.frame3824 > :global(.__wab_flex-container) > *,
+.frame3824 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame3824 > :global(.__wab_flex-container) > picture > img,
+.frame3824
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 2px;
+}
+.框架内容头部 {
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.119));
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.frame2279 {
+  flex-direction: row;
+  height: 50px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+}
+.frame2279 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.frame2279 > :global(.__wab_flex-container) > *,
+.frame2279 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2279 > :global(.__wab_flex-container) > picture > img,
+.frame2279
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.这是标题 {
+  display: block;
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 1);
+  position: relative;
+}
+.frame2289 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame2289 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.frame2289 > :global(.__wab_flex-container) > *,
+.frame2289 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2289 > :global(.__wab_flex-container) > picture > img,
+.frame2289
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.分组3 {
+  flex-direction: row;
+  width: auto;
+  height: 20px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.分组3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.分组3 > :global(.__wab_flex-container) > *,
+.分组3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.分组3 > :global(.__wab_flex-container) > picture > img,
+.分组3 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+}
+.svg__hGwnm {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #666;
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+.导出 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(51, 51, 51, 1);
+  position: relative;
+}
+.按钮基础按钮 {
+  flex-direction: row;
+  background: rgba(157, 196, 130, 1);
+  width: auto;
+  height: 32px;
+  display: flex;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+.按钮基础按钮 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.按钮基础按钮 > :global(.__wab_flex-container) > *,
+.按钮基础按钮 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.按钮基础按钮 > :global(.__wab_flex-container) > picture > img,
+.按钮基础按钮
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.text__mExOk {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.按钮基础按钮2 {
+  flex-direction: row;
+  width: auto;
+  height: 32px;
+  display: flex;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+.按钮基础按钮2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.按钮基础按钮2 > :global(.__wab_flex-container) > *,
+.按钮基础按钮2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.按钮基础按钮2 > :global(.__wab_flex-container) > picture > img,
+.按钮基础按钮2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.按钮 {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(102, 102, 102, 1);
+  position: relative;
+}
+.按钮基础按钮3 {
+  flex-direction: row;
+  background: rgba(227, 227, 227, 1);
+  width: auto;
+  height: 32px;
+  display: flex;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+.按钮基础按钮3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.按钮基础按钮3 > :global(.__wab_flex-container) > *,
+.按钮基础按钮3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.按钮基础按钮3 > :global(.__wab_flex-container) > picture > img,
+.按钮基础按钮3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.按钮2 {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(102, 102, 102, 1);
+  position: relative;
+}
+.按钮基础按钮4 {
+  flex-direction: row;
+  background: rgba(157, 196, 130, 1);
+  width: auto;
+  height: 32px;
+  display: flex;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+.按钮基础按钮4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.按钮基础按钮4 > :global(.__wab_flex-container) > *,
+.按钮基础按钮4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.按钮基础按钮4 > :global(.__wab_flex-container) > picture > img,
+.按钮基础按钮4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.按钮3 {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.输入框下拉列表 {
+  flex-direction: row;
+  width: 200px;
+  height: 36px;
+  display: flex;
+  position: relative;
+  padding-left: 4px;
+  padding-right: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+.输入框下拉列表 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.输入框下拉列表 > :global(.__wab_flex-container) > *,
+.输入框下拉列表 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.输入框下拉列表 > :global(.__wab_flex-container) > picture > img,
+.输入框下拉列表
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.请输入关键字搜索 {
+  position: relative;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__anEnt {
+  display: block;
+  flex-grow: 1;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(153, 153, 153, 1);
+}
+.svg__k6OWt {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #666;
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+.frame3827 {
+  background: rgba(209, 229, 244, 1);
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: auto;
+}
+.frame2773 {
+  flex-direction: row;
+  background: rgba(140, 180, 197, 1);
+  height: 40px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+  padding: 10px 16px;
+}
+.frame2773 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.frame2773 > :global(.__wab_flex-container) > *,
+.frame2773 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2773 > :global(.__wab_flex-container) > picture > img,
+.frame2773
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.frame3806 {
+  flex-direction: row;
+  width: 635px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame3806 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.frame3806 > :global(.__wab_flex-container) > *,
+.frame3806 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame3806 > :global(.__wab_flex-container) > picture > img,
+.frame3806
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.svg___6OI3 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+.当前可以预览报告样式具体配置可以创建后再做调整 {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: Microsoft YaHei;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.freeBox {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 930px;
+  height: 100%;
+  max-width: 100%;
+  background: none;
+  min-height: 0;
+  padding: 16px 0px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.frame3732 {
+  background: rgba(255, 255, 255, 1);
+  width: 930px;
+  height: 128px;
+  display: block;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.输入框 {
+  flex-direction: row;
+  width: 898px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  top: 72px;
+  left: 16px;
+}
+.输入框 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 14px);
+  width: calc(100% + 14px);
+}
+.输入框 > :global(.__wab_flex-container) > *,
+.输入框 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.输入框 > :global(.__wab_flex-container) > picture > img,
+.输入框
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 14px;
+}
+.标题 {
+  display: block;
+  font-size: 14px;
+  text-align: right;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(153, 153, 153, 1);
+  position: relative;
+}
+.输入框2 {
+  box-shadow: inset 0px 0px 0px 1px rgba(204, 204, 204, 1);
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-radius: 2px;
+}
+.frame10 {
+  flex-direction: row;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  right: 0px;
+}
+.frame10 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.frame10 > :global(.__wab_flex-container) > *,
+.frame10 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame10 > :global(.__wab_flex-container) > picture > img,
+.frame10
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.freeBox__j7J {
+  position: relative;
+  width: 1px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.text2 {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(153, 153, 153, 1);
+}
+.请输入 {
+  position: relative;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.请输入2 {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(51, 51, 51, 1);
+}
+.svg___5Ozhv {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #b0b0b0;
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+.frame3763 {
+  flex-direction: row;
+  width: 892px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 24px;
+  left: 22px;
+}
+.frame3763 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.frame3763 > :global(.__wab_flex-container) > *,
+.frame3763 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame3763 > :global(.__wab_flex-container) > picture > img,
+.frame3763
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.frame3683 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.必填 {
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__mM2Bz {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #eb4141;
+  width: 6px;
+  height: 6px;
+  display: block;
+  top: 2px;
+  left: 2px;
+}
+.text__b2Vxw {
+  display: block;
+  font-size: 14px;
+  text-align: right;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: rgba(153, 153, 153, 1);
+  position: relative;
+}
+.frame3476 {
+  flex-direction: row;
+  width: 814px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 2px;
+  padding: 7px 4px 7px 8px;
+}
+.frame3476 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.frame3476 > :global(.__wab_flex-container) > *,
+.frame3476 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame3476 > :global(.__wab_flex-container) > picture > img,
+.frame3476
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text__wrnsQ {
+  display: block;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(51, 51, 51, 1);
+  position: relative;
+}
+.text__sdffO {
+  display: block;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 100%;
+  color: rgba(153, 153, 153, 1);
+  position: relative;
+}
+.img___9EsUf {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  display: block !important;
+  top: 78px;
+  left: 858px;
+}
+.img___9EsUf > picture > img {
+  object-fit: cover;
+}
+.img___9EsUf > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__flRbR {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  left: auto;
+  top: auto;
+  width: 100%;
+  min-width: 0;
+  border-radius: 4px;
+}
+.img__flRbR > picture > img {
+  object-fit: cover;
+}
+.img__flRbR > .__wab_img-spacer > img {
+  object-fit: cover;
+}

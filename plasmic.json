@@ -1,0 +1,1187 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "8LNynTt7Kq18qaQhaii1cF",
+      "projectApiToken": "4yAvO03Nm7VTTDIsae8QI7A07LAzjMizdeGtmdUlsIf8GJnvmQrgf9MVTebuUdRFusDn3lBdgrmy2WyAU8uQ",
+      "projectName": "base demo",
+      "version": "latest",
+      "cssFilePath": "plasmic/base_demo/plasmic_base_demo.module.css",
+      "components": [
+        {
+          "id": "YKQQzz1RwZn",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "8LNynTt7Kq18qaQhaii1cF",
+          "renderModuleFilePath": "plasmic/base_demo/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/base_demo/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "D0sJTxpcIx",
+          "name": "学评总览快速体验",
+          "type": "managed",
+          "projectId": "8LNynTt7Kq18qaQhaii1cF",
+          "renderModuleFilePath": "plasmic/base_demo/Plasmic学评总览快速体验.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/base_demo/Plasmic学评总览快速体验.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "TEQCDPDVHA",
+          "name": "学评配置报告模版",
+          "type": "managed",
+          "projectId": "8LNynTt7Kq18qaQhaii1cF",
+          "renderModuleFilePath": "plasmic/base_demo/Plasmic学评配置报告模版.tsx",
+          "importSpec": {
+            "modulePath": "../pages/report-list.tsx"
+          },
+          "cssFilePath": "plasmic/base_demo/Plasmic学评配置报告模版.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "R-Thu3KSY8",
+          "name": "学评点击模版开始创建",
+          "type": "managed",
+          "projectId": "8LNynTt7Kq18qaQhaii1cF",
+          "renderModuleFilePath": "plasmic/base_demo/Plasmic学评点击模版开始创建.tsx",
+          "importSpec": {
+            "modulePath": "../pages/report- detail.tsx"
+          },
+          "cssFilePath": "plasmic/base_demo/Plasmic学评点击模版开始创建.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "1oEINPAJ1T7V7",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "s4yQUqCDjQ3qK",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "pCL6omxJijZ",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "ZQ1dqBXcRba",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "XZcsFdxme4",
+          "name": "导出Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__导出.tsx"
+        },
+        {
+          "id": "RMzus-Hdjd8",
+          "name": "上下三角Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__上下三角.tsx"
+        },
+        {
+          "id": "qAp5j9XtQ1X",
+          "name": "Ellipse23Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Ellipse23.tsx"
+        },
+        {
+          "id": "v_0t2rwnnGg",
+          "name": "PatnIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Patn.tsx"
+        },
+        {
+          "id": "gu-Amgf6Pv4",
+          "name": "Patn2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Patn2.tsx"
+        },
+        {
+          "id": "mcx_xQRwZZB",
+          "name": "Patn3Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Patn3.tsx"
+        },
+        {
+          "id": "DJDvdsUUTNQ",
+          "name": "Patn4Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Patn4.tsx"
+        },
+        {
+          "id": "25E8HEWDx-Y",
+          "name": "Ellipse654Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Ellipse654.tsx"
+        },
+        {
+          "id": "fTI2EhiADaR",
+          "name": "MonotonePointLineTriangleCubeIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__MonotonePointLineTriangleCube.tsx"
+        },
+        {
+          "id": "jwQ15apY-qP",
+          "name": "Polygon3Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Polygon3.tsx"
+        },
+        {
+          "id": "CeyOWs3fryL",
+          "name": "Polygon4Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Polygon4.tsx"
+        },
+        {
+          "id": "dS8Y_ejC8fZ",
+          "name": "Polygon5Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Polygon5.tsx"
+        },
+        {
+          "id": "ppRSnYQGfDO",
+          "name": "Rectangle2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Rectangle2.tsx"
+        },
+        {
+          "id": "pxeNPLd0Ecv",
+          "name": "Fill1Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill1.tsx"
+        },
+        {
+          "id": "vlNYNRP-kNG",
+          "name": "Fill3Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill3.tsx"
+        },
+        {
+          "id": "J5C9UjKB3FB",
+          "name": "Fill2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill2.tsx"
+        },
+        {
+          "id": "ffU-8xpSR7z",
+          "name": "Fill5Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill5.tsx"
+        },
+        {
+          "id": "rCFFHjaBqqb",
+          "name": "Fill3Copy2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill3Copy2.tsx"
+        },
+        {
+          "id": "BgCTi_Y6F1U",
+          "name": "Rectangle3Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Rectangle3.tsx"
+        },
+        {
+          "id": "qzhorjFL8f3",
+          "name": "Ellipse655Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Ellipse655.tsx"
+        },
+        {
+          "id": "ynJYbAk2jnA",
+          "name": "侧边栏收起Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__侧边栏收起.tsx"
+        },
+        {
+          "id": "9c8oxosuHer",
+          "name": "Vector1Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Vector1.tsx"
+        },
+        {
+          "id": "IsNbUiaunUN",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "mXWctJ5K7x2",
+          "name": "侧边栏收起2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__侧边栏收起2.tsx"
+        },
+        {
+          "id": "HfjWcegbMb-",
+          "name": "底部展开侧边栏Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__底部展开侧边栏.tsx"
+        },
+        {
+          "id": "UGqD3uhE4xt",
+          "name": "Rectangle14StrokeIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Rectangle14Stroke.tsx"
+        },
+        {
+          "id": "ek8qQ1Cnmrk",
+          "name": "UnionIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Union.tsx"
+        },
+        {
+          "id": "HvmuvfgQ4b2",
+          "name": "Fill17Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill17.tsx"
+        },
+        {
+          "id": "sP1IEupTwMX",
+          "name": "MaskIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Mask.tsx"
+        },
+        {
+          "id": "yuk48qeKXH2B",
+          "name": "SubtractIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Subtract.tsx"
+        },
+        {
+          "id": "-utxgXEpuMoG",
+          "name": "Subtract2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Subtract2.tsx"
+        },
+        {
+          "id": "Zpb863JOrAn",
+          "name": "Patn5Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Patn5.tsx"
+        },
+        {
+          "id": "PHKJEdnEzXc",
+          "name": "Rectangle5Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Rectangle5.tsx"
+        },
+        {
+          "id": "AVhPmxu8VxE",
+          "name": "Fill4Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill4.tsx"
+        },
+        {
+          "id": "iP7ncpNqqSW",
+          "name": "Fill6Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill6.tsx"
+        },
+        {
+          "id": "J9OMJ4Ys18N",
+          "name": "Fill3Copy3Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill3Copy3.tsx"
+        },
+        {
+          "id": "pPvQMZ0AP8U",
+          "name": "上下拖动排序Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__上下拖动排序.tsx"
+        },
+        {
+          "id": "ODp11Aq8Efb",
+          "name": "表格筛选Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__表格筛选.tsx"
+        },
+        {
+          "id": "RRrcXm6D8bbP",
+          "name": "表格单项顺序排列Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__表格单项顺序排列.tsx"
+        },
+        {
+          "id": "2cInm-cXoAU",
+          "name": "Patn6Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Patn6.tsx"
+        },
+        {
+          "id": "dIVnwGWqf8c",
+          "name": "Rectangle7Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Rectangle7.tsx"
+        },
+        {
+          "id": "4Wfc6t2Rh64",
+          "name": "Fill10Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill10.tsx"
+        },
+        {
+          "id": "kfw0TqmNkxx",
+          "name": "Fill11Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill11.tsx"
+        },
+        {
+          "id": "c9VtwKZ3q",
+          "name": "Fill3Copy4Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Fill3Copy4.tsx"
+        },
+        {
+          "id": "Y9Td09Q4YPN",
+          "name": "Subtract3Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Subtract3.tsx"
+        },
+        {
+          "id": "LBCPg-1qPqZ",
+          "name": "Subtract4Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Subtract4.tsx"
+        },
+        {
+          "id": "pQmpcTkgDx_",
+          "name": "Line19Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Line19.tsx"
+        },
+        {
+          "id": "2v5p76VJ5gkA",
+          "name": "Icon20X20BianjiIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Icon20X20Bianji.tsx"
+        },
+        {
+          "id": "R0_JkYs4Icmu",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "D-tLVUHbqIcm",
+          "name": "Rectangle1442Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Rectangle1442.tsx"
+        },
+        {
+          "id": "qGSNnSOQOPQj",
+          "name": "Frame2Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Frame2.tsx"
+        },
+        {
+          "id": "uM9gnfIo8m-",
+          "name": "Subtract5Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Subtract5.tsx"
+        },
+        {
+          "id": "VUQuBuHDqF_",
+          "name": "Subtract6Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__Subtract6.tsx"
+        },
+        {
+          "id": "yOqJprMNFld",
+          "name": "提示警示Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__提示警示.tsx"
+        },
+        {
+          "id": "2PgpUdBV0a",
+          "name": "必填Icon",
+          "moduleFilePath": "plasmic/base_demo/icons/PlasmicIcon__必填.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "I7hY9CzRNYU7o",
+          "name": "image.png",
+          "filePath": "../public/plasmic/base_demo/images/imagepng.jpeg"
+        },
+        {
+          "id": "xiuOD7Vxt",
+          "name": "image",
+          "filePath": "../public/plasmic/base_demo/images/image.png"
+        },
+        {
+          "id": "PiDbM7F2q",
+          "name": "千库网_眼镜书本课本打开的书_元素编号11908107",
+          "filePath": "../public/plasmic/base_demo/images/千库网眼镜书本课本打开的书元素编号11908107.jpeg"
+        },
+        {
+          "id": "ZZ3mm5zqSr",
+          "name": "logo",
+          "filePath": "../public/plasmic/base_demo/images/logo.png"
+        },
+        {
+          "id": "y9h6geeq6F3",
+          "name": "Ellipse 25",
+          "filePath": "../public/plasmic/base_demo/images/ellipse25.svg"
+        },
+        {
+          "id": "71xdibPHsUc",
+          "name": "Ellipse 24",
+          "filePath": "../public/plasmic/base_demo/images/ellipse24.svg"
+        },
+        {
+          "id": "jERNThqY_57",
+          "name": "Rectangle",
+          "filePath": "../public/plasmic/base_demo/images/rectangle.svg"
+        },
+        {
+          "id": "hsanOGsU3ZS",
+          "name": "Mask Group",
+          "filePath": "../public/plasmic/base_demo/images/maskGroup.svg"
+        },
+        {
+          "id": "i-kxOn2SA5o",
+          "name": "Group Copy",
+          "filePath": "../public/plasmic/base_demo/images/groupCopy.svg"
+        },
+        {
+          "id": "0W7o2DVMVgW",
+          "name": "Group Copy 2",
+          "filePath": "../public/plasmic/base_demo/images/groupCopy2.svg"
+        },
+        {
+          "id": "caxHahNFtwG",
+          "name": "Ellipse 26",
+          "filePath": "../public/plasmic/base_demo/images/ellipse26.svg"
+        },
+        {
+          "id": "F0QyyD5bD5e",
+          "name": "Fill 7",
+          "filePath": "../public/plasmic/base_demo/images/fill7.svg"
+        },
+        {
+          "id": "nuJjvOHuS5o",
+          "name": "Mask Group 2",
+          "filePath": "../public/plasmic/base_demo/images/maskGroup2.svg"
+        },
+        {
+          "id": "74KG0vKw8",
+          "name": "Color/Servers",
+          "filePath": "../public/plasmic/base_demo/images/colorServers.svg"
+        },
+        {
+          "id": "A5TDId7MwA",
+          "name": "Ellipse 27",
+          "filePath": "../public/plasmic/base_demo/images/ellipse27.svg"
+        },
+        {
+          "id": "pT9PUvpUaO",
+          "name": "总览",
+          "filePath": "../public/plasmic/base_demo/images/总览.svg"
+        },
+        {
+          "id": "tNSWGxdzDuo",
+          "name": "花名册",
+          "filePath": "../public/plasmic/base_demo/images/花名册.svg"
+        },
+        {
+          "id": "GTeLzrpW0bV",
+          "name": "备选图标/课程库",
+          "filePath": "../public/plasmic/base_demo/images/备选图标课程库.svg"
+        },
+        {
+          "id": "28QaSpt7kAt",
+          "name": "评价报告",
+          "filePath": "../public/plasmic/base_demo/images/评价报告.svg"
+        },
+        {
+          "id": "KpU9PUGYfZk",
+          "name": "申请查询",
+          "filePath": "../public/plasmic/base_demo/images/申请查询.svg"
+        },
+        {
+          "id": "mdIeR-14XC6",
+          "name": "应用设置",
+          "filePath": "../public/plasmic/base_demo/images/应用设置.svg"
+        },
+        {
+          "id": "Bwc8DmYPJpx",
+          "name": "成绩管理",
+          "filePath": "../public/plasmic/base_demo/images/成绩管理.svg"
+        },
+        {
+          "id": "aGziMXSPWd6",
+          "name": "班级设置",
+          "filePath": "../public/plasmic/base_demo/images/班级设置.svg"
+        },
+        {
+          "id": "vZnNhYDzUTv",
+          "name": "图标",
+          "filePath": "../public/plasmic/base_demo/images/图标.svg"
+        },
+        {
+          "id": "GxMQy39ny8j",
+          "name": "任课安排",
+          "filePath": "../public/plasmic/base_demo/images/任课安排.svg"
+        },
+        {
+          "id": "ipld6QyZ9yE",
+          "name": "bg with border",
+          "filePath": "../public/plasmic/base_demo/images/bgWithBorder.svg"
+        },
+        {
+          "id": "gx0KmuxNO7C",
+          "name": "45 deg black",
+          "filePath": "../public/plasmic/base_demo/images/_45DegBlack.svg"
+        },
+        {
+          "id": "eSM63xmfawJ",
+          "name": "white glare",
+          "filePath": "../public/plasmic/base_demo/images/whiteGlare.svg"
+        },
+        {
+          "id": "3D3Fi4mqHFU",
+          "name": "black shadow",
+          "filePath": "../public/plasmic/base_demo/images/blackShadow.svg"
+        },
+        {
+          "id": "XS0bHe-aEBl",
+          "name": "rounder glare",
+          "filePath": "../public/plasmic/base_demo/images/rounderGlare.svg"
+        },
+        {
+          "id": "ndxdPkUo3yr",
+          "name": "右眼",
+          "filePath": "../public/plasmic/base_demo/images/右眼.svg"
+        },
+        {
+          "id": "AxOMthWX6Z6",
+          "name": "左眼",
+          "filePath": "../public/plasmic/base_demo/images/左眼.svg"
+        },
+        {
+          "id": "0CKGvk1wjAU",
+          "name": "耳机",
+          "filePath": "../public/plasmic/base_demo/images/耳机.svg"
+        },
+        {
+          "id": "rj1FqW_xgEN",
+          "name": "bg with border 2",
+          "filePath": "../public/plasmic/base_demo/images/bgWithBorder2.svg"
+        },
+        {
+          "id": "V234L98ijXI",
+          "name": "45 deg black 2",
+          "filePath": "../public/plasmic/base_demo/images/_45DegBlack2.svg"
+        },
+        {
+          "id": "Zu--v6NFfPi",
+          "name": "white glare 2",
+          "filePath": "../public/plasmic/base_demo/images/whiteGlare2.svg"
+        },
+        {
+          "id": "HyRHChG1VAk",
+          "name": "black shadow 2",
+          "filePath": "../public/plasmic/base_demo/images/blackShadow2.svg"
+        },
+        {
+          "id": "yZPdJFqS6La",
+          "name": "rounder glare 2",
+          "filePath": "../public/plasmic/base_demo/images/rounderGlare2.svg"
+        },
+        {
+          "id": "vk8KVCZtvL5",
+          "name": "Ellipse 28",
+          "filePath": "../public/plasmic/base_demo/images/ellipse28.svg"
+        },
+        {
+          "id": "KcQwjoJ3-C0",
+          "name": "Ellipse 29",
+          "filePath": "../public/plasmic/base_demo/images/ellipse29.svg"
+        },
+        {
+          "id": "pTt2aFwACNr",
+          "name": "Rectangle 4",
+          "filePath": "../public/plasmic/base_demo/images/rectangle4.svg"
+        },
+        {
+          "id": "5nIUZiSr-cn",
+          "name": "Mask Group 3",
+          "filePath": "../public/plasmic/base_demo/images/maskGroup3.svg"
+        },
+        {
+          "id": "LtwfShV9Rgc",
+          "name": "Ellipse 30",
+          "filePath": "../public/plasmic/base_demo/images/ellipse30.svg"
+        },
+        {
+          "id": "xbyZCjrtnFG",
+          "name": "Fill 8",
+          "filePath": "../public/plasmic/base_demo/images/fill8.svg"
+        },
+        {
+          "id": "XUw9H5Jaksh",
+          "name": "Mask Group 4",
+          "filePath": "../public/plasmic/base_demo/images/maskGroup4.svg"
+        },
+        {
+          "id": "tyIiAw2Nht_",
+          "name": "Color/Servers 2",
+          "filePath": "../public/plasmic/base_demo/images/colorServers2.svg"
+        },
+        {
+          "id": "h8LfjvN1pkD",
+          "name": "Ellipse 31",
+          "filePath": "../public/plasmic/base_demo/images/ellipse31.svg"
+        },
+        {
+          "id": "x9DziOm7KN",
+          "name": "多选框",
+          "filePath": "../public/plasmic/base_demo/images/多选框.svg"
+        },
+        {
+          "id": "o4A2XAwqD9",
+          "name": "Group 8",
+          "filePath": "../public/plasmic/base_demo/images/group8.svg"
+        },
+        {
+          "id": "nXjTAj_Y-",
+          "name": "千库网_眼镜书本课本打开的书_元素编号11908107 2",
+          "filePath": "../public/plasmic/base_demo/images/千库网眼镜书本课本打开的书元素编号119081072.jpeg"
+        },
+        {
+          "id": "KB5C_zY3nq",
+          "name": "logo 2",
+          "filePath": "../public/plasmic/base_demo/images/logo2.png"
+        },
+        {
+          "id": "goHoCMioGd",
+          "name": "任课安排 2",
+          "filePath": "../public/plasmic/base_demo/images/任课安排2.svg"
+        },
+        {
+          "id": "xbTfNOsrlor",
+          "name": "bg with border 3",
+          "filePath": "../public/plasmic/base_demo/images/bgWithBorder3.svg"
+        },
+        {
+          "id": "iGx88y9OLWZ",
+          "name": "45 deg black 3",
+          "filePath": "../public/plasmic/base_demo/images/_45DegBlack3.svg"
+        },
+        {
+          "id": "5RlkUwCNFeL",
+          "name": "white glare 3",
+          "filePath": "../public/plasmic/base_demo/images/whiteGlare3.svg"
+        },
+        {
+          "id": "PKvYmnFoDSU",
+          "name": "black shadow 3",
+          "filePath": "../public/plasmic/base_demo/images/blackShadow3.svg"
+        },
+        {
+          "id": "iTmijcf8loP",
+          "name": "rounder glare 3",
+          "filePath": "../public/plasmic/base_demo/images/rounderGlare3.svg"
+        },
+        {
+          "id": "ajq6kkwx7-_",
+          "name": "右眼 2",
+          "filePath": "../public/plasmic/base_demo/images/右眼2.svg"
+        },
+        {
+          "id": "q1oVvCbMI3T",
+          "name": "左眼 2",
+          "filePath": "../public/plasmic/base_demo/images/左眼2.svg"
+        },
+        {
+          "id": "DBDXokfpbl8",
+          "name": "耳机 2",
+          "filePath": "../public/plasmic/base_demo/images/耳机2.svg"
+        },
+        {
+          "id": "ufRl5N57KSi",
+          "name": "总览 2",
+          "filePath": "../public/plasmic/base_demo/images/总览2.svg"
+        },
+        {
+          "id": "TNFRrXebkRU",
+          "name": "花名册 2",
+          "filePath": "../public/plasmic/base_demo/images/花名册2.svg"
+        },
+        {
+          "id": "P-oVQHpn3M",
+          "name": "备选图标/课程库 2",
+          "filePath": "../public/plasmic/base_demo/images/备选图标课程库2.svg"
+        },
+        {
+          "id": "OUqb3CN2am",
+          "name": "评价报告 2",
+          "filePath": "../public/plasmic/base_demo/images/评价报告2.svg"
+        },
+        {
+          "id": "hvjVr-AK7is",
+          "name": "申请查询 2",
+          "filePath": "../public/plasmic/base_demo/images/申请查询2.svg"
+        },
+        {
+          "id": "747ogB3DJKq",
+          "name": "应用设置 2",
+          "filePath": "../public/plasmic/base_demo/images/应用设置2.svg"
+        },
+        {
+          "id": "eg26IOppeVN",
+          "name": "成绩管理 2",
+          "filePath": "../public/plasmic/base_demo/images/成绩管理2.svg"
+        },
+        {
+          "id": "TfGnM5nhpKv",
+          "name": "班级设置 2",
+          "filePath": "../public/plasmic/base_demo/images/班级设置2.svg"
+        },
+        {
+          "id": "v9FBEIaO0hD",
+          "name": "图标 2",
+          "filePath": "../public/plasmic/base_demo/images/图标2.svg"
+        },
+        {
+          "id": "0quvjx9VjC_",
+          "name": "Ellipse 32",
+          "filePath": "../public/plasmic/base_demo/images/ellipse32.svg"
+        },
+        {
+          "id": "nY9ofhrZsNh",
+          "name": "Ellipse 33",
+          "filePath": "../public/plasmic/base_demo/images/ellipse33.svg"
+        },
+        {
+          "id": "m0IoIMVFSMi",
+          "name": "Rectangle 6",
+          "filePath": "../public/plasmic/base_demo/images/rectangle6.svg"
+        },
+        {
+          "id": "zHKPHKN8-mn",
+          "name": "Mask Group 5",
+          "filePath": "../public/plasmic/base_demo/images/maskGroup5.svg"
+        },
+        {
+          "id": "oJ4e8uu3dKT",
+          "name": "Group Copy 3",
+          "filePath": "../public/plasmic/base_demo/images/groupCopy3.svg"
+        },
+        {
+          "id": "EfFvHJGMjmr",
+          "name": "Group Copy 4",
+          "filePath": "../public/plasmic/base_demo/images/groupCopy4.svg"
+        },
+        {
+          "id": "ext2CKXvfpf",
+          "name": "Ellipse 34",
+          "filePath": "../public/plasmic/base_demo/images/ellipse34.svg"
+        },
+        {
+          "id": "_ZLjf6gEUW3",
+          "name": "Fill 9",
+          "filePath": "../public/plasmic/base_demo/images/fill9.svg"
+        },
+        {
+          "id": "-7POTbYPt3",
+          "name": "Mask Group 6",
+          "filePath": "../public/plasmic/base_demo/images/maskGroup6.svg"
+        },
+        {
+          "id": "RqbzWeoRkJ",
+          "name": "Color/Servers 3",
+          "filePath": "../public/plasmic/base_demo/images/colorServers3.svg"
+        },
+        {
+          "id": "LA-UQLNTiQC",
+          "name": "Ellipse 35",
+          "filePath": "../public/plasmic/base_demo/images/ellipse35.svg"
+        },
+        {
+          "id": "NIbFCACcP",
+          "name": "千库网_眼镜书本课本打开的书_元素编号11908107 3",
+          "filePath": "../public/plasmic/base_demo/images/千库网眼镜书本课本打开的书元素编号119081073.jpeg"
+        },
+        {
+          "id": "4-ydYLBpVi",
+          "name": "Frame 3014 1",
+          "filePath": "../public/plasmic/base_demo/images/frame30141.png"
+        },
+        {
+          "id": "GGzbXAtV11",
+          "name": "Frame 3014 2",
+          "filePath": "../public/plasmic/base_demo/images/frame30142.jpeg"
+        },
+        {
+          "id": "FsYEfBkDQ8",
+          "name": "Frame 2772 1",
+          "filePath": "../public/plasmic/base_demo/images/frame27721.jpeg"
+        },
+        {
+          "id": "yws_JUtyTD",
+          "name": "Frame 2772 (2) 1",
+          "filePath": "../public/plasmic/base_demo/images/frame277221.jpeg"
+        },
+        {
+          "id": "cBJ5JfadOE",
+          "name": "logo 3",
+          "filePath": "../public/plasmic/base_demo/images/logo3.png"
+        },
+        {
+          "id": "MOw5Gqwz4A",
+          "name": "任课安排 3",
+          "filePath": "../public/plasmic/base_demo/images/任课安排3.svg"
+        },
+        {
+          "id": "SzuXnp3RGxF",
+          "name": "bg with border 4",
+          "filePath": "../public/plasmic/base_demo/images/bgWithBorder4.svg"
+        },
+        {
+          "id": "iAbLrot0OWM",
+          "name": "45 deg black 4",
+          "filePath": "../public/plasmic/base_demo/images/_45DegBlack4.svg"
+        },
+        {
+          "id": "VYOfmwKAaUz",
+          "name": "white glare 4",
+          "filePath": "../public/plasmic/base_demo/images/whiteGlare4.svg"
+        },
+        {
+          "id": "Bv2ECmCSuqm",
+          "name": "black shadow 4",
+          "filePath": "../public/plasmic/base_demo/images/blackShadow4.svg"
+        },
+        {
+          "id": "1zOnSNBouOi",
+          "name": "rounder glare 4",
+          "filePath": "../public/plasmic/base_demo/images/rounderGlare4.svg"
+        },
+        {
+          "id": "oorFQrcl-34",
+          "name": "右眼 3",
+          "filePath": "../public/plasmic/base_demo/images/右眼3.svg"
+        },
+        {
+          "id": "D1rJUXQaXKm",
+          "name": "左眼 3",
+          "filePath": "../public/plasmic/base_demo/images/左眼3.svg"
+        },
+        {
+          "id": "aAUl7waXlQT",
+          "name": "耳机 3",
+          "filePath": "../public/plasmic/base_demo/images/耳机3.svg"
+        },
+        {
+          "id": "uhCZCO31mR1",
+          "name": "总览 3",
+          "filePath": "../public/plasmic/base_demo/images/总览3.svg"
+        },
+        {
+          "id": "RRQ2i9KuD8Z",
+          "name": "花名册 3",
+          "filePath": "../public/plasmic/base_demo/images/花名册3.svg"
+        },
+        {
+          "id": "fAUppOX3rcQ",
+          "name": "备选图标/课程库 3",
+          "filePath": "../public/plasmic/base_demo/images/备选图标课程库3.svg"
+        },
+        {
+          "id": "b9xeOLMeTz",
+          "name": "评价报告 3",
+          "filePath": "../public/plasmic/base_demo/images/评价报告3.svg"
+        },
+        {
+          "id": "sRj8ZkfPX5C",
+          "name": "申请查询 3",
+          "filePath": "../public/plasmic/base_demo/images/申请查询3.svg"
+        },
+        {
+          "id": "O4kazO6Sei8",
+          "name": "应用设置 3",
+          "filePath": "../public/plasmic/base_demo/images/应用设置3.svg"
+        },
+        {
+          "id": "SBZiH8A99YM",
+          "name": "成绩管理 3",
+          "filePath": "../public/plasmic/base_demo/images/成绩管理3.svg"
+        },
+        {
+          "id": "Z2Hwjh9zuAM",
+          "name": "班级设置 3",
+          "filePath": "../public/plasmic/base_demo/images/班级设置3.svg"
+        },
+        {
+          "id": "-LYoxHfgJks",
+          "name": "图标 3",
+          "filePath": "../public/plasmic/base_demo/images/图标3.svg"
+        },
+        {
+          "id": "v2iFb46qYii",
+          "name": "Polygon 8",
+          "filePath": "../public/plasmic/base_demo/images/polygon8.svg"
+        },
+        {
+          "id": "j1i98fRQNRM",
+          "name": "Frame",
+          "filePath": "../public/plasmic/base_demo/images/frame.svg"
+        },
+        {
+          "id": "FLv1ME60h",
+          "name": "image 2",
+          "filePath": "../public/plasmic/base_demo/images/image2.png"
+        },
+        {
+          "id": "OidgryyQd",
+          "name": "千库网_眼镜书本课本打开的书_元素编号11908107 4",
+          "filePath": "../public/plasmic/base_demo/images/千库网眼镜书本课本打开的书元素编号119081074.jpeg"
+        },
+        {
+          "id": "XJWAf3vxt3",
+          "name": "Frame 3014 3",
+          "filePath": "../public/plasmic/base_demo/images/frame30143.png"
+        },
+        {
+          "id": "RPbOprbiBL",
+          "name": "Frame 3014 4",
+          "filePath": "../public/plasmic/base_demo/images/frame30144.jpeg"
+        },
+        {
+          "id": "BUAtmcKLna",
+          "name": "Frame 2772 2",
+          "filePath": "../public/plasmic/base_demo/images/frame27722.jpeg"
+        },
+        {
+          "id": "V5363szNNP",
+          "name": "Frame 2772 (2) 2",
+          "filePath": "../public/plasmic/base_demo/images/frame277222.jpeg"
+        },
+        {
+          "id": "eWDoW5dLuC",
+          "name": "logo 4",
+          "filePath": "../public/plasmic/base_demo/images/logo4.png"
+        },
+        {
+          "id": "7U9uGOiILZ",
+          "name": "任课安排 4",
+          "filePath": "../public/plasmic/base_demo/images/任课安排4.svg"
+        },
+        {
+          "id": "_e9JnmhSSC",
+          "name": "bg with border 5",
+          "filePath": "../public/plasmic/base_demo/images/bgWithBorder5.svg"
+        },
+        {
+          "id": "nbBeIvbqcE",
+          "name": "45 deg black 5",
+          "filePath": "../public/plasmic/base_demo/images/_45DegBlack5.svg"
+        },
+        {
+          "id": "tsLiMXHRjS",
+          "name": "white glare 5",
+          "filePath": "../public/plasmic/base_demo/images/whiteGlare5.svg"
+        },
+        {
+          "id": "XBZkdGACb32",
+          "name": "black shadow 5",
+          "filePath": "../public/plasmic/base_demo/images/blackShadow5.svg"
+        },
+        {
+          "id": "fWlba3_xqTb",
+          "name": "rounder glare 5",
+          "filePath": "../public/plasmic/base_demo/images/rounderGlare5.svg"
+        },
+        {
+          "id": "MCaehz8pwk_",
+          "name": "右眼 4",
+          "filePath": "../public/plasmic/base_demo/images/右眼4.svg"
+        },
+        {
+          "id": "uEUa9BZWCla",
+          "name": "左眼 4",
+          "filePath": "../public/plasmic/base_demo/images/左眼4.svg"
+        },
+        {
+          "id": "ztjlagfygtr",
+          "name": "耳机 4",
+          "filePath": "../public/plasmic/base_demo/images/耳机4.svg"
+        },
+        {
+          "id": "hJySzr2oKmL",
+          "name": "总览 4",
+          "filePath": "../public/plasmic/base_demo/images/总览4.svg"
+        },
+        {
+          "id": "RiFIyp9snQP",
+          "name": "花名册 4",
+          "filePath": "../public/plasmic/base_demo/images/花名册4.svg"
+        },
+        {
+          "id": "K88786Y-rsK",
+          "name": "备选图标/课程库 4",
+          "filePath": "../public/plasmic/base_demo/images/备选图标课程库4.svg"
+        },
+        {
+          "id": "b6GvBTj3GaM",
+          "name": "评价报告 4",
+          "filePath": "../public/plasmic/base_demo/images/评价报告4.svg"
+        },
+        {
+          "id": "39c1bDSS0ZW",
+          "name": "申请查询 4",
+          "filePath": "../public/plasmic/base_demo/images/申请查询4.svg"
+        },
+        {
+          "id": "NfGxAjrRhrA",
+          "name": "应用设置 4",
+          "filePath": "../public/plasmic/base_demo/images/应用设置4.svg"
+        },
+        {
+          "id": "fmWPLzWEYH7",
+          "name": "成绩管理 4",
+          "filePath": "../public/plasmic/base_demo/images/成绩管理4.svg"
+        },
+        {
+          "id": "xpjuH_Gah6R",
+          "name": "班级设置 4",
+          "filePath": "../public/plasmic/base_demo/images/班级设置4.svg"
+        },
+        {
+          "id": "eVoYPXUa0F6",
+          "name": "图标 4",
+          "filePath": "../public/plasmic/base_demo/images/图标4.svg"
+        },
+        {
+          "id": "FZCHHIHy6vL",
+          "name": "Polygon 9",
+          "filePath": "../public/plasmic/base_demo/images/polygon9.svg"
+        },
+        {
+          "id": "gX-dtBYUGkV",
+          "name": "Frame 3",
+          "filePath": "../public/plasmic/base_demo/images/frame3.svg"
+        },
+        {
+          "id": "zwIWH3zXM",
+          "name": "千库网_眼镜书本课本打开的书_元素编号11908107 5",
+          "filePath": "../public/plasmic/base_demo/images/千库网眼镜书本课本打开的书元素编号119081075.jpeg"
+        },
+        {
+          "id": "WJBwV48nSO",
+          "name": "logo 5",
+          "filePath": "../public/plasmic/base_demo/images/logo5.png"
+        },
+        {
+          "id": "_Zlkc0NuS7",
+          "name": "任课安排 5",
+          "filePath": "../public/plasmic/base_demo/images/任课安排5.svg"
+        },
+        {
+          "id": "Wu-fmPl9MTe",
+          "name": "bg with border 6",
+          "filePath": "../public/plasmic/base_demo/images/bgWithBorder6.svg"
+        },
+        {
+          "id": "fRcnUjl5I0V",
+          "name": "45 deg black 6",
+          "filePath": "../public/plasmic/base_demo/images/_45DegBlack6.svg"
+        },
+        {
+          "id": "-uJYDFnL5L",
+          "name": "white glare 6",
+          "filePath": "../public/plasmic/base_demo/images/whiteGlare6.svg"
+        },
+        {
+          "id": "m1qb_mayCm",
+          "name": "black shadow 6",
+          "filePath": "../public/plasmic/base_demo/images/blackShadow6.svg"
+        },
+        {
+          "id": "OQ-hrvCpFr",
+          "name": "rounder glare 6",
+          "filePath": "../public/plasmic/base_demo/images/rounderGlare6.svg"
+        },
+        {
+          "id": "5Lni5mwKBr",
+          "name": "右眼 5",
+          "filePath": "../public/plasmic/base_demo/images/右眼5.svg"
+        },
+        {
+          "id": "0SaPu_hmt2D",
+          "name": "左眼 5",
+          "filePath": "../public/plasmic/base_demo/images/左眼5.svg"
+        },
+        {
+          "id": "TVviKI4q3q2",
+          "name": "耳机 5",
+          "filePath": "../public/plasmic/base_demo/images/耳机5.svg"
+        },
+        {
+          "id": "e8D50OPcOwS",
+          "name": "总览 5",
+          "filePath": "../public/plasmic/base_demo/images/总览5.svg"
+        },
+        {
+          "id": "_JpvtzWaejT",
+          "name": "花名册 5",
+          "filePath": "../public/plasmic/base_demo/images/花名册5.svg"
+        },
+        {
+          "id": "pXQOpKOlkMA",
+          "name": "备选图标/课程库 5",
+          "filePath": "../public/plasmic/base_demo/images/备选图标课程库5.svg"
+        },
+        {
+          "id": "KzoRjCkICTt",
+          "name": "评价报告 5",
+          "filePath": "../public/plasmic/base_demo/images/评价报告5.svg"
+        },
+        {
+          "id": "-BCj6pefV4Q",
+          "name": "申请查询 5",
+          "filePath": "../public/plasmic/base_demo/images/申请查询5.svg"
+        },
+        {
+          "id": "saAGMmHJ4qg",
+          "name": "应用设置 5",
+          "filePath": "../public/plasmic/base_demo/images/应用设置5.svg"
+        },
+        {
+          "id": "gW_1fi_0R02",
+          "name": "成绩管理 5",
+          "filePath": "../public/plasmic/base_demo/images/成绩管理5.svg"
+        },
+        {
+          "id": "mazQt1iYKXu",
+          "name": "班级设置 5",
+          "filePath": "../public/plasmic/base_demo/images/班级设置5.svg"
+        },
+        {
+          "id": "VzbELuEjwTc",
+          "name": "图标 5",
+          "filePath": "../public/plasmic/base_demo/images/图标5.svg"
+        },
+        {
+          "id": "5aseZcpGA",
+          "name": "image 3",
+          "filePath": "../public/plasmic/base_demo/images/image3.jpeg"
+        },
+        {
+          "id": "7uWtdBdUZX0",
+          "name": "删除选项",
+          "filePath": "../public/plasmic/base_demo/images/删除选项.svg"
+        },
+        {
+          "id": "L9zgX1LW7",
+          "name": "image 4",
+          "filePath": "../public/plasmic/base_demo/images/image4.jpeg"
+        },
+        {
+          "id": "Q4YEccdt8",
+          "name": "image 5",
+          "filePath": "../public/plasmic/base_demo/images/image5.jpeg"
+        },
+        {
+          "id": "H_JsyC4kI",
+          "name": "image 6",
+          "filePath": "../public/plasmic/base_demo/images/image6.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.171",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.171/dist/plasmic.schema.json"
+}
