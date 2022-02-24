@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
+  <path d="M16 32c7.011 0 10.909 0 13.454-2.546C32 26.91 32 23.011 32 16c0-7.011 0-10.909-2.546-13.454C26.91 0 23.011 0 16 0 8.989 0 5.091 0 2.546 2.546 0 5.09 0 8.989 0 16c0 7.011 0 10.909 2.546 13.454C5.09 32 8.989 32 16 32z" fill="url(#JeHVYG_mdaa)"/>
+  <path d="M16 32c7.011 0 10.909 0 13.454-2.546C32 26.91 32 23.011 32 16c0-7.011 0-10.909-2.546-13.454C26.91 0 23.011 0 16 0 8.989 0 5.091 0 2.546 2.546 0 5.09 0 8.989 0 16c0 7.011 0 10.909 2.546 13.454C5.09 32 8.989 32 16 32z" fill="url(#JeHVYG_mdab)"/>
+  <defs>
+    <radialGradient id="JeHVYG_mdaa" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 16 -16 0 16 16)">
+      <stop stop-color="#FCFCFC"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <linearGradient id="JeHVYG_mdab" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#93ABBC" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#7C93A4" stop-opacity=".17"/>
+    </linearGradient>
+  </defs>
+</svg>

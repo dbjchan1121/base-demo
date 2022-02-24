@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 34 34">
+  <g style="mix-blend-mode:soft-light" filter="url(#KZ3LhX00tZa)">
+    <path d="M30.43 30.43c-1.265 1.267-2.868 1.901-5.033 2.219-2.166.318-4.89.318-8.397.318-3.507 0-6.23 0-8.397-.318-2.165-.318-3.768-.952-5.034-2.218s-1.9-2.87-2.218-5.034c-.318-2.166-.318-4.89-.318-8.397 0-3.507 0-6.23.318-8.397.318-2.165.952-3.768 2.218-5.034s2.87-1.9 5.034-2.218c2.166-.318 4.89-.318 8.397-.318 3.506 0 6.23 0 8.397.318 2.165.318 3.768.952 5.034 2.218s1.9 2.87 2.218 5.034c.318 2.166.318 4.89.318 8.397 0 3.506 0 6.23-.318 8.397-.318 2.165-.952 3.768-2.218 5.034z" stroke="url(#KZ3LhX00tZb)" stroke-width=".067"/>
+  </g>
+  <defs>
+    <linearGradient id="KZ3LhX00tZb" x1="17" y1="1" x2="17" y2="17" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="KZ3LhX00tZa" x=".9" y=".9" width="32.2" height="32.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation=".05" result="effect1_foregroundBlur_7144_305031"/>
+    </filter>
+  </defs>
+</svg>
