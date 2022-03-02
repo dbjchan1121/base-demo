@@ -2947,7 +2947,7 @@
   position: relative;
 }
 .输入框2 {
-  box-shadow: inset 0px 0px 0px 1px rgba(204, 204, 204, 1);
+  box-shadow: inset 0px 0px 0px 1px #cccccc;
   display: block;
   position: relative;
   align-self: stretch;

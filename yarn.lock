@@ -417,10 +417,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plasmicapp/cli@^0.1.171":
-  version "0.1.171"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.171.tgz#4562c4dcd5b8ea438bca829bc9de6c5f9b02c6b5"
-  integrity sha512-Gp8q17y5/mS85A69xaB51UW7IWpWEqUVqud70eKtbLnNEtBSBghWSBAe3ciWuwAywZScvCoCqRc8v/pCWElRvQ==
+"@plasmicapp/cli@^0.1.173":
+  version "0.1.173"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.173.tgz#dd42bed722a9aed5a8f333e744fcdbb09dd2f689"
+  integrity sha512-7UzGWBVcRl0ij2WxEWq8tJqBv4hFTIlKaQtM1phP9SPQbt0jBw+Uv9MX8yGpvAV/bzuiUdCEsnN5MoBuEV8bFA==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/generator" "^7.12.1"
@@ -493,6 +493,11 @@
     classnames "^2.2.6"
     react-aria "^3.7.0"
     react-stately "^3.6.0"
+
+"@plasmicpkgs/plasmic-basic-components@^0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-basic-components/-/plasmic-basic-components-0.0.23.tgz#d61b0daee36fbd4fa6650842a8822cba0007cb95"
+  integrity sha512-RYsYqS8Td+WJqJ1xZhwpED26Vddx2MWj48vHcf+XEXTuWIIKPYuzagYq6YP7cQHkA2Fk+Ht87lDpmJbEV3xmlQ==
 
 "@react-aria/breadcrumbs@^3.1.7":
   version "3.1.7"

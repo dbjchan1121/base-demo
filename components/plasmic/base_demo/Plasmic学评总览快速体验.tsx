@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+import * as ph from "@plasmicapp/host";
 
 import {
   hasVariant,
@@ -281,7 +282,7 @@ export type Plasmic学评总览快速体验__OverridesType = {
   rectangle1448?: p.Flex<"div">;
   绿底翻页?: p.Flex<"div">;
   向右滑动点击状态?: p.Flex<"div">;
-  frame3745?: p.Flex<"div">;
+  frame3745?: p.Flex<"a"> & Partial<LinkProps>;
   蓝底翻页?: p.Flex<"div">;
   向右滑动点击状态2?: p.Flex<"div">;
   frame3750?: p.Flex<"div">;
@@ -2525,7 +2526,7 @@ function Plasmic学评总览快速体验__RenderFunc(props: {
                       sty.这是标题
                     )}
                   >
-                    {"总览"}
+                    {"总览1"}
                   </div>
                 </p.Stack>
 
@@ -2897,10 +2898,17 @@ function Plasmic学评总览快速体验__RenderFunc(props: {
                   />
                 </p.PlasmicLink>
 
-                <div
+                <p.PlasmicLink
                   data-plasmic-name={"frame3745"}
                   data-plasmic-override={overrides.frame3745}
-                  className={classNames(projectcss.all, sty.frame3745)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.frame3745
+                  )}
+                  component={Link}
+                  href={"/report- detail" as const}
+                  platform={"nextjs"}
                 >
                   <Polygon3Icon
                     className={classNames(projectcss.all, sty.svg__cQrUt)}
@@ -3158,7 +3166,7 @@ function Plasmic学评总览快速体验__RenderFunc(props: {
                     className={classNames(projectcss.all, sty.svg__uMoo6)}
                     role={"img"}
                   />
-                </div>
+                </p.PlasmicLink>
               </p.Stack>
             </div>
           </div>
@@ -5117,7 +5125,7 @@ type NodeDefaultElementType = {
   rectangle1448: "div";
   绿底翻页: "div";
   向右滑动点击状态: "div";
-  frame3745: "div";
+  frame3745: "a";
   蓝底翻页: "div";
   向右滑动点击状态2: "div";
   frame3750: "div";
